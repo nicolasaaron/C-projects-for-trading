@@ -1,10 +1,13 @@
 #include "EuropeanOption.hpp"
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 int main()
 {
 
-    // All options are European
+    // All options are European, we compute 4 options
 
     // Call option on a stock
     EuropeanOption callOption;
